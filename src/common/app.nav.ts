@@ -21,7 +21,7 @@ import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
 import WorkspacesIcon from '@mui/icons-material/Workspaces';
 import WorkspacesOutlinedIcon from '@mui/icons-material/WorkspacesOutlined';
 // Link icons
-import GitHubIcon from '@mui/icons-material/GitHub';
+import WebsiteIcon from '@mui/icons-material/Website';
 import { DiscordIcon } from '~/common/components/icons/3rdparty/DiscordIcon';
 // Modal icons
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
@@ -211,7 +211,7 @@ export const navItems: {
       overlayId: 'models',
     },
     {
-      name: 'Preferences',
+      name: 'Settings',
       icon: SettingsIcon,
       type: 'modal',
       overlayId: 'settings',
@@ -234,9 +234,9 @@ export const navItems: {
     },
     {
       type: 'extLink',
-      name: 'GitHub',
-      icon: GitHubIcon,
-      href: Brand.URIs.OpenRepo,
+      name: 'Website',
+      icon: WebsiteIcon,
+      href: 'https://mama-agi.vercel.app',
     },
   ],
 
