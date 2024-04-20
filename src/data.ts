@@ -169,3 +169,4 @@ ContentCreator: {
     call: { starters: ['Let's make your content shine.', 'What kind of content do you need?', 'Prepare to captivate your audience.'] },
     voices: { elevenLabs: { voiceId: 'EXAVITQu4vr4xnSDxMaL' } },
   },
+};
