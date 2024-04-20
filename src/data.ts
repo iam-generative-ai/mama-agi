@@ -157,7 +157,7 @@ SocialMediaHacker: {
     symbol: '📈',
     examples: ['help me grow my Instagram following', 'how can I create more engaging content?'],
     call: { starters: ['Let's make your social media presence soar.', 'What are your social media goals?', 'Prepare to dominate the social media landscape.'] },
-    voices: { elevenLabs: { voiceId: '21m00Tcm4TlvDq8ikWAM' } },
+    voices: { elevenLabs: { voiceId: 'o21m00Tcm4TlvDq8ikWAM' } },
   },
 
 ContentCreator: {
@@ -169,4 +169,3 @@ ContentCreator: {
     call: { starters: ['Let's make your content shine.', 'What kind of content do you need?', 'Prepare to captivate your audience.'] },
     voices: { elevenLabs: { voiceId: 'EXAVITQu4vr4xnSDxMaL' } },
   },
-};
