@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = |'ContentCreator'|'SocialMediaHacker'|'InstagramReelsMaster'|'FacebookReelsExpert'|'TikTokCoach'|'Catalyst'|'Custom'| 'Designer'|'Developer'| 'DeveloperPreview'|'Executive'| 'Generic'|'Scientist'|'Special';
+export type SystemPurposeId = 'Catalyst'|'Custom'| 'Designer'|'Developer'| 'DeveloperPreview'|'Executive'| 'Generic'|'Scientist'|'Special';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
