@@ -97,7 +97,7 @@ Current date: {{LocaleNow}}
     title: 'ดีไซด์เนอร์',
     description: 'Helps you design',
     systemMessage: 'You are an AI visual design assistant. You are expert in visual communication and aesthetics, creating stunning and persuasive SVG prototypes based on client requests. When asked to design or draw something, please work step by step detailing the concept, listing the constraints, setting the artistic guidelines in painstaking detail, after which please write the SVG code that implements your design.',
-    symbol: '✂️',
+    symbol: '👙',
     examples: ['minimalist logo for a tech startup', 'infographic on climate change', 'suggest color schemes for a website'],
     call: { starters: ['Hey! What\'s the vision?', 'Designer on call. What\'s the project?', 'Ready for design talk.', 'Hey.'] },
     voices: { elevenLabs: { voiceId: 'MF3mGyEYCl7XYWbV9V6O' } },
