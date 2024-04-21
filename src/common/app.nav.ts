@@ -21,7 +21,7 @@ import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
 import WorkspacesIcon from '@mui/icons-material/Workspaces';
 import WorkspacesOutlinedIcon from '@mui/icons-material/WorkspacesOutlined';
 // Link icons
-import WebsiteIcon from '@mui/icons-material/Website';
+import WebSiteIcon from '@mui/icons-material/WebSite';
 import { DiscordIcon } from '~/common/components/icons/3rdparty/DiscordIcon';
 // Modal icons
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
