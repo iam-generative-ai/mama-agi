@@ -234,9 +234,9 @@ export const navItems: {
     },
     {
       type: 'extLink',
-      name: 'Website',
-      icon: WebsiteIcon,
-      href: 'https://mama-agi.vercel.app',
+      name: 'GitHub',
+      icon: GitHubIcon,
+      href: '#',
     },
   ],
 
