@@ -12,6 +12,7 @@ import EventNoteIcon from '@mui/icons-material/EventNote';
 import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined';
 import FormatPaintOutlinedIcon from '@mui/icons-material/FormatPaintOutlined';
 import FormatPaintTwoToneIcon from '@mui/icons-material/FormatPaintTwoTone';
+import GrainIcon from '@mui/icons-material/Grain';
 import ImageIcon from '@mui/icons-material/Image';
 import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
 import IosShareIcon from '@mui/icons-material/IosShare';
@@ -21,7 +22,7 @@ import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
 import WorkspacesIcon from '@mui/icons-material/Workspaces';
 import WorkspacesOutlinedIcon from '@mui/icons-material/WorkspacesOutlined';
 // Link icons
-import WebSiteIcon from '@mui/icons-material/WebSite';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { DiscordIcon } from '~/common/components/icons/3rdparty/DiscordIcon';
 // Modal icons
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
@@ -163,6 +164,13 @@ export const navItems: {
       hideBar: true,
     },
     {
+      name: 'Tokenize',
+      icon: GrainIcon,
+      type: 'app',
+      route: '/tokens',
+      hideDrawer: true,
+    },
+    {
       name: 'Beam',
       icon: ChatBeamIcon,
       type: 'app',
@@ -211,7 +219,7 @@ export const navItems: {
       overlayId: 'models',
     },
     {
-      name: 'Settings',
+      name: 'Preferences',
       icon: SettingsIcon,
       type: 'modal',
       overlayId: 'settings',
@@ -236,7 +244,7 @@ export const navItems: {
       type: 'extLink',
       name: 'GitHub',
       icon: GitHubIcon,
-      href: '#',
+      href: Brand.URIs.OpenRepo,
     },
   ],
 
